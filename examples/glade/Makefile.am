@@ -32,7 +32,7 @@ $(DLL_ASSEMBLY): $(DLL_ASSEMBLY_DEPS)
 		$(addprefix $(srcdir)/, $(DLL_SOURCE_FILES)) \
 		-out:$(DLL_ASSEMBLY)
 
-ASSEMBLY_NAME = GladExample
+ASSEMBLY_NAME = GladeExample
 ASSEMBLY_TYPE = winexe
 ASSEMBLY_EXT = exe
 ASSEMBLY_DEPS = $(DLL_ASSEMBLY)
